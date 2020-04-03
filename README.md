@@ -5,7 +5,7 @@ major limiting factor in Interferometric Synthetic Aperture Radar (InSAR) measur
 through the troposphere. This approach combines the use of both external weather model data and the
 interferometric phase, which has overcome the limitations of using either approach individually.
 The distributed ASVS package consists matlab scripts only and is compatible with the StaMPS software and
-the TRAIN. 
+the TRAIN. The package can also be applied to individual interferograms output from any InSAR software.
 
 We request users to reference our publication of this approach:
 

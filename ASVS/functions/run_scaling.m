@@ -25,7 +25,7 @@ index=index1|index2;
 phase=phase(~index,:);
 ph_tropo_era=ph_tropo_era(~index,:);
 hgt=hgt(~index,:); 
-a=grid_index(~index,:);
+a=grid_index;
 
 
 for ifg=1:size(phase,2)

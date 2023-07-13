@@ -13,4 +13,4 @@ Shen, L., Hooper, A., & Elliott, J. (2019). A spatially varying scaling method f
 high-resolution weather model. Journal of Geophysical Research: Solid Earth, 124, 4051–4068.
 https://doi.org/10.1029/2018JB016189.
 
-Any feedback is welcomed by sending emails to eels@leeds.ac.uk.
+Any feedback is welcomed by sending emails to L.Shen@leeds.ac.uk.

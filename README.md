@@ -64,3 +64,5 @@ Users then could compute the scaled interferometric tropospheric delays and subt
 interferometric phase to derive tropospheric corrected interferograms.
 
 5. Demo
+
+The demo included in the package comprises several components: a Matlab matrix with interferometric phase derived from Sentinel-1 data spanning the period between October 2014 to October 2022, covering the Nevados de Chillán Volcano in central Chile, another Matlab matrix with tropospheric delay phase estimated from HRES-ECMWF weather model data, a Matlab matrix of DEM, a Matlab matrix of Lon-Lat coordinates, and a Matlab matrix with all required parameters. Running this demo on a "normal" desktop computer typically takes 15-20 minutes.

@@ -65,6 +65,6 @@ interferometric phase to derive tropospheric corrected interferograms.
 
 5. Demo
 
-The demo included in the package comprises: a Matlab matrix with interferometric phase, 'phuw_sb2.mat', derived from Sentinel-1 data spanning the period between October 2014 to October 2022, covering the Nevados de Chillán Volcano in central Chile; another Matlab matrix with tropospheric delay phase, 'tca_sb2.mat', estimated from HRES-ECMWF weather model data; a Matlab matrix of DEM, 'hgt2.mat'; a Matlab matrix of Lon-Lat coordinates, 'll.mat'; and a Matlab matrix with all required parameters, 'parms_ASVS.mat'. 
+The demo included in this package comprises: a Matlab matrix with interferometric phase, 'phuw_sb2.mat', derived from Sentinel-1 data spanning the period between October 2014 to October 2022, covering the Nevados de Chillán Volcano in central Chile; another Matlab matrix with tropospheric delay phase, 'tca_sb2.mat', estimated from HRES-ECMWF weather model data; a Matlab matrix of DEM, 'hgt2.mat'; a Matlab matrix of Lon-Lat coordinates, 'll.mat'; and a Matlab matrix with all required parameters, 'parms_ASVS.mat'. 
 
-Running this demo on a "normal" desktop computer typically takes 15-20 minutes.
+Running this demo on a "normal" desktop computer typically takes  minutes.

@@ -32,8 +32,7 @@ structure to extract required parameters of interferograms.
 2.3 TRAIN
 
 The ASVS package is integrated with the TRAIN version 1beta and could extract tropospheric delays
-computed from the external weather model data using the TRAIN automatically
-Configuration
+computed from the external weather model data using the TRAIN automatically.
 
 3. Data preparation
 

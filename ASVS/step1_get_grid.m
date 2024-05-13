@@ -11,7 +11,7 @@ function []=step1_get_grid(parms_ASVS)
 parms=parms_ASVS;
 stamps_processed = parms.stamps_processed;
 
-% loading the data
+%loading the data
 if strcmp(stamps_processed,'y')
    fprintf('Stamps processed structure \n');
    load phuw_sb2.mat
@@ -19,9 +19,9 @@ if strcmp(stamps_processed,'y')
 else
     fprintf('loading external data \n');
     ph_uw=load(parms.phuw_file);
-    ph_uw=ph_uw.ph_uw;
+    ph_uw=ph_uw.phuw_sb2;
     lonlat=load(parms.ll_file);
-    lonlat=lonlat.lonlat;
+    lonlat=lonlat.ll;
 end
 
 % getting UTM coordinates in km for every point

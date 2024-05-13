@@ -22,7 +22,7 @@ if strcmp(stamps_processed,'y')
 else
     fprintf('loading external interferograms \n');
     ph_uw=load(parms.phuw_file);
-    ph_uw=ph_uw.ph_uw;
+    ph_uw=ph_uw.phuw_sb2;
     hgt=load(parms.hgt_file);
     hgt=hgt.hgt;
     n_ifg=parms.n_ifg;
@@ -39,7 +39,7 @@ if strcmp(train_processed,'y')
 else
     fprintf('loading external tropospheric delays \n');
     ph_tropo_era=load(parms.ph_tropo_era_file);
-    ph_tropo_era=ph_tropo_era.ph_tropo_era;
+    ph_tropo_era=ph_tropo_era.tca_sb2;
 end
 % inverting InSAR phase anomalies and tropospheric delay anomalies in single epoch
 [ph_InSAR,ph_tropo]=get_anomaly(ph_uw,ph_tropo_era,n_ifg,n_image,ifgday_ix);

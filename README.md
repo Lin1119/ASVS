@@ -44,7 +44,7 @@ of this matrix is included in the package. Please refer to the manual document '
 4.1 Installation
 
 After unzipping the zipfile of the ASVS package at YOURPATH, to source functions in the sub-folder named
-‘functions’, users should be able to run the following command in Matlab. This takes 1-3 minutes to build on a "normal" desktop computer. 
+‘functions’, users should be able to run the following command in Matlab. This takes a few seconds to build on a "normal" desktop computer. 
 > addpath(‘YOURPATH/ASVS/functions’);
 
 4.2 Step 1 - getting a grid overlapped with the ROI
